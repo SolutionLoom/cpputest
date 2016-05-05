@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1383791563</fileChecksum>
+  <fileChecksum>4058297926</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -109,6 +109,34 @@
       <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
       <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
       <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestTestingFixture.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\SimpleMutex.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestHarness_c.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\PlatformSpecificFunctions_c.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestResult.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestFailure.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestPlugin.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\CommandLineTestRunner.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\MemoryLeakWarningPlugin.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestOutput.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestHarness.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\Utest.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestFilter.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\CommandLineArguments.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\JUnitTestOutput.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TeamCityTestOutput.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\CppUTestGeneratedConfig.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\CppUTestConfig.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\MemoryLeakDetectorNewMacros.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\StandardCLibrary.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\SimpleString.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\UtestMacros.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestMemoryAllocator.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\TestRegistry.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\MemoryLeakDetector.h</file>
+      <file>$PROJ_DIR$\_debug\include\CppUTest\PlatformSpecificFunctions.h</file>
       <file>$PROJ_DIR$\..\..\tests\AllTests.cpp</file>
     </outputs>
     <file>
@@ -119,10 +147,24 @@
           <file> 68</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 83</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 90</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 121 27 115 28 91 108 109 87 24 34 122 128 124 112 123 23 103 126 107 110 120 30 125 33 114 113 116</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 103 128 116 113</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestResult.cpp</name>
@@ -132,10 +174,24 @@
           <file> 65</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 70</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 92</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 27 130 126 120 125 33 87 34 108 107 30 94 113 121 115 124 112 123 109 28 24 91 23 114 122 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 113 130 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\Utest.cpp</name>
@@ -145,10 +201,24 @@
           <file> 67</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 50</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 89</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 87 34 108 109 124 115 121 28 94 91 27 116 130 112 123 23 110 128 113 126 107 120 30 125 33 122 106 114</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 128 116 130 113 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\Platforms\Iar\UtestPlatform.cpp</name>
@@ -158,6 +228,10 @@
           <file> 76</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 86</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 93</file>
         </tool>
@@ -165,11 +239,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 94 27 87 66 23 95 28 21 24 34 91 22 30 102 32 33 35 80 31 99 100 25 97 101 98</file>
+          <file> 80 30 114 87 124 66 28 21 91 94 27 31 107 110 22 102 32 130 24 34 23 95 126 120 125 106 99 33 35 100 25 97 101 98 121 115 108 112 123 109 122 113</file>
         </tool>
         <tool>
           <name>ICCRX</name>
-          <file> 99 94 87 24 91 23 34 33 27 22 35 28 30 66 102 21 80 100 97 25 31 101 32 95 98</file>
+          <file> 99 94 87 24 91 23 34 33 27 22 35 28 30 66 102 21 80 100 97 25 31 101 32 95 98 114 121 120 123 109 125 115 124 126 107 108 110 112 122 130 113 106</file>
         </tool>
       </inputs>
     </file>
@@ -181,10 +255,24 @@
           <file> 57</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 4</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 29</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 113 27 122 87 114 119 126 120 125 33 124 107 30 94 121 116 111 118 128 115 108 112 123 109 28 24 34 117 91 23</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 111 113 117 116 118 119 128</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakDetector.cpp</name>
@@ -194,10 +282,24 @@
           <file> 52</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 42</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 46</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 109 108 87 24 34 104 115 121 28 94 91 27 110 127 112 123 23 129 130 126 107 120 30 125 33 106 114 122 113</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 129 127 130 113 106 104</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TeamCityTestOutput.cpp</name>
@@ -207,10 +309,24 @@
           <file> 69</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 51</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 37</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 87 34 108 123 109 115 121 28 94 91 27 124 112 23 119 126 107 110 120 30 125 33 122 113 114</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 119 113</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestFilter.cpp</name>
@@ -220,10 +336,24 @@
           <file> 71</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 82</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 39</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 121 109 28 87 94 24 34 91 27 124 116 120 30 125 33 23</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 116 124</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakWarningPlugin.cpp</name>
@@ -233,10 +363,24 @@
           <file> 38</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 49</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 43</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 94 124 110 27 130 126 120 125 129 107 30 23 112 127 104 121 115 108 123 109 28 24 34 91 106 114 33 122 113</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 129 127 130 113 106 104</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestFailure.cpp</name>
@@ -246,10 +390,24 @@
           <file> 79</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 63</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 58</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 124 130 113 121 112 123 94 87 110 108 115 109 28 24 34 91 27 114 126 107 120 30 125 33 122 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 113 130 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\JUnitTestOutput.cpp</name>
@@ -259,10 +417,24 @@
           <file> 47</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 41</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 26</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 94 121 130 30 126 110 120 125 27 33 87 122 113 118 108 115 124 112 123 109 28 24 34 114 91 23 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 118 113 130 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestHarness_c.cpp</name>
@@ -272,10 +444,24 @@
           <file> 84</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 77</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 61</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 115 94 121 113 105 108 109 87 24 127 124 112 123 122 129 130 126 107 110 120 30 125 27 33 34 114 91 23 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 129 127 130 113 106 105</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestPlugin.cpp</name>
@@ -285,10 +471,24 @@
           <file> 85</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 54</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 62</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 87 110 107 94 126 120 125 27 33 34 121 115 124 108 112 123 109 28 24 91 23 114 122</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestRegistry.cpp</name>
@@ -298,10 +498,24 @@
           <file> 73</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 78</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 88</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 94 30 87 126 110 120 125 27 33 128 121 115 124 108 112 123 109 28 24 34 91 23 116 114 122</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 128 116</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleString.cpp</name>
@@ -311,10 +525,24 @@
           <file> 64</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 45</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 55</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 87 113 122 107 94 121 130 126 110 120 125 27 33 34 123 124 127 115 108 112 109 28 24 91 23 106 114</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 130 113 106 127</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestMemoryAllocator.cpp</name>
@@ -324,10 +552,24 @@
           <file> 75</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 81</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 60</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 112 87 121 123 110 130 124 23 113 127 129 115 108 109 28 24 34 91 27 114 126 107 120 30 125 33 122 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 127 130 113 106 129</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\CommandLineArguments.cpp</name>
@@ -337,10 +579,24 @@
           <file> 56</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 15</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 59</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 23 130 121 112 123 94 87 110 117 115 108 109 28 24 34 91 27 113 114 126 107 120 30 125 33 122 116 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 117 113 116 130 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleMutex.cpp</name>
@@ -350,10 +606,24 @@
           <file> 48</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 53</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 36</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 94 30 87 126 110 120 125 27 33 34 124 104 121 115 108 112 123 109 28 24 91 23 106 114 122 130 113</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 104 130 113 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\src\CppUTest\TestOutput.cpp</name>
@@ -363,10 +633,24 @@
           <file> 74</file>
         </tool>
         <tool>
+          <name>ICCRX</name>
+          <file> 44</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 40</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112 23 121 123 124 130 115 108 109 28 87 94 110 113 126 107 120 30 125 27 24 34 91 114 33 122 106</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 114 121 120 123 109 94 87 24 91 23 34 33 27 30 28 125 115 124 126 107 108 110 112 122 113 130 106</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>[ROOT_NODE]</name>
@@ -387,10 +671,669 @@
   </configuration>
   <configuration>
     <name>Release</name>
-    <outputs/>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestTestingFixture.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestResult.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\Utest.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\Platforms\Iar\UtestPlatform.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\CommandLineTestRunner.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakDetector.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TeamCityTestOutput.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestFilter.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakWarningPlugin.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestFailure.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\JUnitTestOutput.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestHarness_c.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestPlugin.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestRegistry.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\SimpleString.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestMemoryAllocator.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\CommandLineArguments.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\SimpleMutex.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestOutput.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TeamCityTestOutput.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\MemoryLeakWarningPlugin.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestPlugin.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\MemoryLeakDetectorNewMacros.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestFailure.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\CommandLineTestRunner.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\JUnitTestOutput.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestOutput.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\CommandLineArguments.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestFilter.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestRegistry.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestResult.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\setjmp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlrxdlln.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\SimpleMutex.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\PlatformSpecificFunctions_c.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\PlatformSpecificFunctions.h</file>
+      <file>$PROJ_DIR$\_release\CppUTest.a</file>
+      <file>$PROJ_DIR$\Release\Obj\TestResult.o</file>
+      <file>$PROJ_DIR$\Release\Obj\CommandLineTestRunner.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\SimpleString.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestResult.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestTestingFixture.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\SimpleString.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestPlugin.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TeamCityTestOutput.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Utest.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestFailure.o</file>
+      <file>$PROJ_DIR$\Release\Obj\CommandLineArguments.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\MemoryLeakWarningPlugin.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestFilter.o</file>
+      <file>$PROJ_DIR$\Release\Obj\UtestPlatform.o</file>
+      <file>$PROJ_DIR$\Release\Obj\SimpleMutex.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestOutput.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestTestingFixture.o</file>
+      <file>$PROJ_DIR$\Release\Obj\SimpleMutex.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestMemoryAllocator.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TeamCityTestOutput.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestFilter.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestHarness_c.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestMemoryAllocator.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\MemoryLeakWarningPlugin.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestOutput.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestRegistry.o</file>
+      <file>$PROJ_DIR$\Release\Obj\TestFailure.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestPlugin.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestHarness_c.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\JUnitTestOutput.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\MemoryLeakDetector.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\TestRegistry.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CommandLineArguments.o</file>
+      <file>$PROJ_DIR$\Release\Obj\CommandLineTestRunner.o</file>
+      <file>$PROJ_DIR$\Release\Obj\JUnitTestOutput.o</file>
+      <file>$PROJ_DIR$\Release\Obj\MemoryLeakDetector.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Utest.pbi</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\MemoryLeakDetector.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestHarness_c.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestMemoryAllocator.h</file>
+      <file>$PROJ_DIR$\Release\Obj\UtestPlatform.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\CppUTest.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\..\..\tests\AllTests.cpp</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestTestingFixture.h</file>
+      <file>$PROJ_DIR$\Release\Obj\CommandLineArguments.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TeamCityTestOutput.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\JUnitTestOutput.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestFilter.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestHarness_c.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\SimpleString.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\CommandLineTestRunner.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\MemoryLeakDetector.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\SimpleMutex.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestFailure.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\MemoryLeakWarningPlugin.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestMemoryAllocator.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestResult.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestTestingFixture.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestRegistry.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestOutput.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\TestPlugin.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\UtestPlatform.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\Utest.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Exe\CppUTest.out</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\TestHarness.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\UtestMacros.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\CppUTestConfig.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\StandardCLibrary.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\CppUTestGeneratedConfig.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\Utest.h</file>
+      <file>$PROJ_DIR$\_release\include\CppUTest\SimpleString.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestTestingFixture.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 128 24 131 25 47 36 102 46 22 30 35 42 132 33 129 21 105 127 43 34 130 26 103 29 126 39 41</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 105 42 41 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestResult.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 24 58 127 130 103 29 46 30 36 43 26 48 39 128 131 132 33 129 102 25 22 47 21 126 35 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 39 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\Utest.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 46 30 36 102 132 131 128 25 48 47 24 41 58 33 129 21 34 42 39 127 43 130 26 103 29 35 57 126</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 42 41 58 39 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\Platforms\Iar\UtestPlatform.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 26 126 46 132 44 25 19 47 48 24 27 43 34 20 55 28 58 22 30 21 49 127 130 103 57 52 29 31 53 23 50 54 51 128 131 36 33 129 102 35 39</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 52 48 46 22 47 21 30 29 24 20 31 25 26 44 55 19 45 53 50 23 27 54 28 49 51 126 128 130 129 102 103 131 132 127 43 36 34 33 35 58 39 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\CommandLineTestRunner.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 39 24 35 46 126 32 127 130 103 29 132 43 26 48 128 41 37 38 42 131 36 33 129 102 25 22 30 40 47 21</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 37 39 40 41 38 32 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakDetector.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132 102 36 46 22 30 56 131 128 25 48 47 24 34 99 33 129 21 97 58 127 43 130 26 103 29 57 126 35 39</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 97 99 58 39 57 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TeamCityTestOutput.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 46 30 36 129 102 131 128 25 48 47 24 132 33 21 32 127 43 34 130 26 103 29 35 39 126</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 32 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestFilter.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129 128 102 25 46 48 22 30 47 24 132 41 130 26 103 29 21</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 41 132</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakWarningPlugin.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 48 132 34 24 58 127 130 103 97 43 26 21 33 99 56 128 131 36 129 102 25 22 30 47 57 126 29 35 39</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 97 99 58 39 57 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestFailure.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 132 58 39 128 33 129 48 46 34 36 131 102 25 22 30 47 24 126 127 43 130 26 103 29 35 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 39 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\JUnitTestOutput.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 48 128 58 26 127 34 130 103 24 29 46 35 39 38 36 131 132 33 129 102 25 22 30 126 47 21 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 38 39 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestHarness_c.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 131 48 128 39 98 36 102 46 22 99 132 33 129 35 97 58 127 43 34 130 26 103 24 29 30 126 47 21 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 97 99 58 39 57 98</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestPlugin.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 46 34 43 48 127 130 103 24 29 30 128 131 132 36 33 129 102 25 22 47 21 126 35</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestRegistry.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 48 26 46 127 34 130 103 24 29 42 128 131 132 36 33 129 102 25 22 30 47 21 41 126 35</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 42 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleString.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 46 39 35 43 48 128 58 127 34 130 103 24 29 30 129 132 99 131 36 33 102 25 22 47 21 57 126</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 58 39 57 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestMemoryAllocator.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 33 46 128 129 34 58 132 21 39 99 97 131 36 102 25 22 30 47 24 126 127 43 130 26 103 29 35 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 99 58 39 57 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\CommandLineArguments.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132 21 58 128 33 129 48 46 34 40 131 36 102 25 22 30 47 24 39 126 127 43 130 26 103 29 35 41 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 40 39 41 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleMutex.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 48 26 46 127 34 130 103 24 29 30 132 56 128 131 36 33 129 102 25 22 47 21 57 126 35 58 39</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 56 58 39 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestOutput.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 21 128 129 132 58 131 36 102 25 46 48 34 39 127 43 130 26 103 24 22 30 47 126 29 35 57</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 126 128 130 129 102 48 46 22 47 21 30 29 24 26 25 103 131 132 127 43 36 34 33 35 39 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
     </forcedrebuild>
   </configuration>
 </project>

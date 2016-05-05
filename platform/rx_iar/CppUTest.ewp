@@ -973,11 +973,11 @@
         <debug>0</debug>
         <option>
           <name>OGChipSelectMenu</name>
-          <state></state>
+          <state>R5F564ML	R5F564ML</state>
         </option>
         <option>
           <name>GenDoubleSize</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>GenCodeModel</name>
@@ -993,11 +993,11 @@
         </option>
         <option>
           <name>GOutputBinary</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>ExePath</name>
-          <state>Release\Exe</state>
+          <state>_release</state>
         </option>
         <option>
           <name>ObjPath</name>
@@ -1019,11 +1019,11 @@
         </option>
         <option>
           <name>GenRTDescription</name>
-          <state></state>
+          <state>To be used with the normal configuration of the C/EC++ runtime library.</state>
         </option>
         <option>
           <name>GenRTConfigPath</name>
-          <state></state>
+          <state>$TOOLKIT_DIR$\LIB\dlrxdlln.h</state>
         </option>
         <option>
           <name>GenLibInFormatter</name>
@@ -1032,7 +1032,7 @@
         </option>
         <option>
           <name>GenLibInFormatterDescription</name>
-          <state></state>
+          <state>Automatic choice of formatter.</state>
         </option>
         <option>
           <name>GenLibOutFormatter</name>
@@ -1041,7 +1041,7 @@
         </option>
         <option>
           <name>GenLibOutFormatterDescription</name>
-          <state></state>
+          <state>Automatic choice of formatter.</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -1067,15 +1067,15 @@
         </option>
         <option>
           <name>StackSize</name>
-          <state>###Uninitialized###</state>
+          <state>0x0</state>
         </option>
         <option>
           <name>IStackSize</name>
-          <state>###Uninitialized###</state>
+          <state>0x100</state>
         </option>
         <option>
           <name>HeapSize</name>
-          <state>###Uninitialized###</state>
+          <state>0x400</state>
         </option>
         <option>
           <name>GenSubnormalNumbers</name>
@@ -1174,7 +1174,7 @@
         </option>
         <option>
           <name>IccOutputFile</name>
-          <state></state>
+          <state>$FILE_BNAME$.o</state>
         </option>
         <option>
           <name>IccProcessor</name>
@@ -1207,7 +1207,9 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state>NDEBUG</state>
+          <state>CPPUTEST_USE_STD_CPP_LIB=0</state>
+          <state>CPPUTEST_MEM_LEAK_DETECTION_DISABLED=1</state>
+          <state>std</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
@@ -1275,7 +1277,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state></state>
+          <state>$PROJ_DIR$\_release\include</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1309,7 +1311,7 @@
         </option>
         <option>
           <name>IccLang</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>IccCDialect</name>
@@ -1599,7 +1601,7 @@
       <name>BUILDACTION</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <prebuild></prebuild>
+        <prebuild>ruby $PROJ_DIR$\..\..\scripts\CopyIncludes.rb  "$PROJ_DIR$\_release\include"</prebuild>
         <postbuild></postbuild>
       </data>
     </settings>
@@ -1624,7 +1626,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>###Unitialized###</state>
+          <state>CppUTest.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
@@ -1902,7 +1904,7 @@
         </option>
         <option>
           <name>IarchiveOutput</name>
-          <state>###Unitialized###</state>
+          <state>C:\_WORKSPACE\SOLUTION_LOOM\CPPUTEST\BRANCH\CLEAN\platform\rx_iar\_release\CppUTest.a</state>
         </option>
       </data>
     </settings>

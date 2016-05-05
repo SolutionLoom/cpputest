@@ -1977,7 +1977,7 @@
     <name>$PROJ_DIR$\..\..\tests\CommandLineTestRunnerTest.cpp</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\_debug\CppUTest.a</name>
+    <name>$PROJ_DIR$\_release\CppUTest.a</name>
   </file>
   <file>
     <name>$PROJ_DIR$\..\..\tests\JUnitOutputTest.cpp</name>
