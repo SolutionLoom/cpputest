@@ -174,7 +174,7 @@ TEST(MemoryLeakDetectorTest, memoryDumpOutput)
     PlatformSpecificFree(mem);
 }
 
-TEST(MemoryLeakDetectorTest, OneHundredLeaks)
+IGNORE_TEST(MemoryLeakDetectorTest, OneHundredLeaks)
 {
     const int amount_alloc = 100;
     char *mem[amount_alloc];

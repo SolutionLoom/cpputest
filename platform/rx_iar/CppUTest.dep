@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1383791563</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestTestingFixture.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestResult.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\Utest.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\Platforms\Iar\UtestPlatform.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandLineTestRunner.o</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\CommandLineTestRunner.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakDetector.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TeamCityTestOutput.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestFilter.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakWarningPlugin.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestFailure.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\JUnitTestOutput.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestHarness_c.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestPlugin.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestRegistry.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandLineArguments.o</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\SimpleString.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestMemoryAllocator.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\CommandLineArguments.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\SimpleMutex.cpp</file>
+      <file>$PROJ_DIR$\..\..\src\CppUTest\TestOutput.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\JUnitTestOutput.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandLineTestRunner.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SimpleMutex.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TeamCityTestOutput.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\MemoryLeakWarningPlugin.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestFilter.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestOutput.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\JUnitTestOutput.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MemoryLeakDetector.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MemoryLeakWarningPlugin.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestOutput.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SimpleString.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MemoryLeakDetector.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\JUnitTestOutput.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SimpleMutex.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MemoryLeakWarningPlugin.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Utest.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TeamCityTestOutput.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MemoryLeakDetector.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SimpleMutex.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestPlugin.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SimpleString.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandLineArguments.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandLineTestRunner.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestFailure.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandLineArguments.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestMemoryAllocator.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestHarness_c.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestPlugin.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestFailure.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SimpleString.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestResult.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\setjmp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Utest.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestTestingFixture.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TeamCityTestOutput.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestResult.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestFilter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CppUTest.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestRegistry.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestOutput.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestMemoryAllocator.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\UtestPlatform.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestHarness_c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestRegistry.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestFailure.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestMemoryAllocator.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestFilter.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestTestingFixture.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestHarness_c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestPlugin.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\UtestPlatform.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestRegistry.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Utest.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestTestingFixture.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\dlrxdlln.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TestResult.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\UtestPlatform.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\_debug\CppUTest.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\tests\AllTests.cpp</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestTestingFixture.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestResult.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\Utest.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\Platforms\Iar\UtestPlatform.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 27 87 66 23 95 28 21 24 34 91 22 30 102 32 33 35 80 31 99 100 25 97 101 98</file>
+        </tool>
+        <tool>
+          <name>ICCRX</name>
+          <file> 99 94 87 24 91 23 34 33 27 22 35 28 30 66 102 21 80 100 97 25 31 101 32 95 98</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\CommandLineTestRunner.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakDetector.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TeamCityTestOutput.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestFilter.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\MemoryLeakWarningPlugin.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestFailure.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\JUnitTestOutput.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestHarness_c.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestPlugin.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestRegistry.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleString.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestMemoryAllocator.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\CommandLineArguments.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleMutex.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CppUTest\TestOutput.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -32,7 +32,20 @@ int main(int ac, const char** av)
     /* These checks are here to make sure assertions outside test runs don't crash */
     CHECK(true);
     LONGS_EQUAL(1, 1);
+    
+    const char * av_override[] = { "exe", "-v" }; //turn on verbose mode
+  
+    int return_value = 0;
+  
+#ifdef __IAR_SYSTEMS_ICC__
+    //This will be run if compiled using an IAR compiler
+    return_value = CommandLineTestRunner::RunAllTests(2, av_override);
+#else
+    return_value = CommandLineTestRunner::RunAllTests(ac, av);
+#endif
 
-    return CommandLineTestRunner::RunAllTests(ac, const_cast<char**>(av)); /* cover alternate method */
+    return return_value;
+
+//    return CommandLineTestRunner::RunAllTests(ac, const_cast<char**>(av)); /* cover alternate method */
 }
 
